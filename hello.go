@@ -12,6 +12,7 @@ import (
 
 func main() {
 	// read input
+	// read input 1
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter a number between 1 and 10: ")
 	text, _ := reader.ReadString('\n')
